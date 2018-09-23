@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+     "watch": true,  
+     "target": "es5",
+     "module": "commonjs",
+     "allowJs": true,
+     "strict": true,
+     "outDir": "public/js/",
+     "noImplicitAny": true,
+     "moduleResolution": "node",
+     "experimentalDecorators": true,
+     "emitDecoratorMetadata": true,
+     "sourceMap": true
+
+    },
+
+    "exclude": ["node_modules" ],
+    "include": [
+      "dev/ts/**/*"
+    ]
+}
